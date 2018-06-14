@@ -1,0 +1,15 @@
+﻿<?php
+return array(
+	//'配置项'=>'配置值'
+	// 添加数据库配置信息
+ 'DB_TYPE'   => 'sqlsrv', // 数据库类型
+ 'DB_HOST'   => '192.168.10.5', // 服务器地址
+ 'DB_NAME'   => 'AIS20170608143219', // 数据库名
+ 'DB_USER'   => 'sa', // 用户名
+ 'DB_PWD'    => 'shujuku@ZENGZHI+147', // 密码
+ 'DB_PORT'   => 1433, // 端口
+ 'DB_PREFIX' => '', // 数据库表前缀
+ 'DB_DSN' => 'sqlsrv:Server=192.168.10.4;Database=AIS20170608143219',
+ 'DB_CHARSET' => 'utf8'
+
+);

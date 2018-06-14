@@ -1,0 +1,2609 @@
+[ 2018-03-07T23:41:57+08:00 ] 223.85.132.24 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2018-03-07T23:41:58+08:00 ] 223.85.132.24 /index.php/Home/Goods/showcategory?categid=132998
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: exec Jp_getgoodslist 124371,132998,'',1,1000 [ RunTime:0.0049s ]
+SQL: exec Jp_getgoodslist 124371,132998,'' [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: count D:\weixinpt\htdocs\App\Home\Controller\GoodsController.class.php 第 45 行.
+NOTIC: [8] Undefined index: count D:\weixinpt\htdocs\App\Home\Controller\GoodsController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2018-03-07T23:41:59+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2018-03-07T23:41:59+08:00 ] 223.85.132.24 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2018-03-07T23:41:59+08:00 ] 223.85.132.24 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2018-03-07T23:42:01+08:00 ] 139.205.6.192 /index.php/Home/Cust/showorderlist?status=dfh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: exec Jp_getorderlist 386926,'dfh' [ RunTime:0.0765s ]
+SQL: exec Jp_getorderlist_detail 621963  [ RunTime:0.0427s ]
+SQL: exec Jp_getorderlist_detail 613857  [ RunTime:0.0385s ]
+SQL: exec Jp_getorderlist_detail 613338  [ RunTime:0.0373s ]
+SQL: exec Jp_getorderlist_detail 613264  [ RunTime:0.0419s ]
+SQL: exec Jp_getorderlist_detail 612872  [ RunTime:0.0383s ]
+SQL: exec Jp_getorderlist_detail 612277  [ RunTime:0.0387s ]
+SQL: exec Jp_getorderlist_detail 611864  [ RunTime:0.0376s ]
+SQL: exec Jp_getorderlist_detail 611471  [ RunTime:0.0380s ]
+SQL: exec Jp_getorderlist_detail 610977  [ RunTime:0.0362s ]
+SQL: exec Jp_getorderlist_detail 609917  [ RunTime:0.0366s ]
+SQL: exec Jp_getorderlist_detail 608984  [ RunTime:0.0343s ]
+SQL: exec Jp_getorderlist_detail 607773  [ RunTime:0.0334s ]
+SQL: exec Jp_getorderlist_detail 603861  [ RunTime:0.0330s ]
+SQL: exec Jp_getorderlist_detail 602242  [ RunTime:0.0321s ]
+SQL: exec Jp_getorderlist_detail 601455  [ RunTime:0.0327s ]
+SQL: exec Jp_getorderlist_detail 600384  [ RunTime:0.0318s ]
+SQL: exec Jp_getorderlist_detail 599260  [ RunTime:0.0314s ]
+SQL: exec Jp_getorderlist_detail 598108  [ RunTime:0.0298s ]
+SQL: exec Jp_getorderlist_detail 597021  [ RunTime:0.0299s ]
+SQL: exec Jp_getorderlist_detail 585902  [ RunTime:0.0296s ]
+SQL: exec Jp_getorderlist_detail 583005  [ RunTime:0.0293s ]
+SQL: exec Jp_getorderlist_detail 574492  [ RunTime:0.0276s ]
+SQL: exec Jp_getorderlist_detail 503294  [ RunTime:0.0270s ]
+SQL: exec Jp_getorderlist_detail 502798  [ RunTime:0.0277s ]
+SQL: exec Jp_getorderlist_detail 501514  [ RunTime:0.0276s ]
+SQL: exec Jp_getorderlist_detail 497401  [ RunTime:0.0264s ]
+SQL: exec Jp_getorderlist_detail 496014  [ RunTime:0.0270s ]
+SQL: exec Jp_getorderlist_detail 495328  [ RunTime:0.0271s ]
+SQL: exec Jp_getorderlist_detail 490042  [ RunTime:0.0266s ]
+SQL: exec Jp_getorderlist_detail 475536  [ RunTime:0.0268s ]
+SQL: exec Jp_getorderlist_detail 473282  [ RunTime:0.0267s ]
+SQL: exec Jp_getorderlist_detail 448336  [ RunTime:0.0261s ]
+SQL: exec Jp_getorderlist_detail 444053  [ RunTime:0.0258s ]
+SQL: exec Jp_getorderlist_detail 423160  [ RunTime:0.0260s ]
+SQL: exec Jp_getorderlist_detail 410062  [ RunTime:0.0289s ]
+SQL: exec Jp_getorderlist_detail 408993  [ RunTime:0.0267s ]
+SQL: exec Jp_getorderlist_detail 407886  [ RunTime:0.0260s ]
+SQL: exec Jp_getorderlist_detail 406706  [ RunTime:0.0260s ]
+SQL: exec Jp_getcustOrdersum 386926 [ RunTime:0.6444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2018-03-07T23:42:04+08:00 ] 183.3.234.60 /Home/Weixinpay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: select fid from t_sal_order where fbillno='XSDD201803004044' [ RunTime:0.0019s ]
+SQL: exec Jp_order_zfupdate 621917,2,99.8 [ RunTime:0.0222s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 't_sal_order' [ RunTime:0.0042s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [fcustid] FROM [t_sal_order] WHERE ( fbillno='XSDD201803004044' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0018s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 't_bd_customer' [ RunTime:0.0040s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [fnumber] FROM [t_bd_customer] WHERE ( fcustid=388510 ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0016s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'v_bd_salesman' [ RunTime:0.0022s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  v_bd_salesman.fnumber FROM [v_bd_salesman] INNER JOIN t_bd_customer on v_bd_salesman.fid=t_bd_customer.fseller  WHERE ( t_bd_customer.fcustid=388510  ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0018s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [fid] FROM [t_sal_order] WHERE ( fbillno='XSDD201803004044' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0015s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 't_ar_receivebill' [ RunTime:0.0038s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  COUNT(*) AS tp_count FROM [t_ar_receivebill] WHERE ( F_PAEZ_Text='XSDD201803004044' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0731s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: order_billno D:\weixinpt\htdocs\App\Runtime\Cache\Home\e2f942c7605416e15e915e7bb63150d2.php 第 26 行.
+NOTIC: [8] Undefined variable: zftime D:\weixinpt\htdocs\App\Runtime\Cache\Home\e2f942c7605416e15e915e7bb63150d2.php 第 29 行.
+NOTIC: [8] Undefined variable: total_fee D:\weixinpt\htdocs\App\Runtime\Cache\Home\e2f942c7605416e15e915e7bb63150d2.php 第 32 行.
+NOTIC: [8] Undefined variable: billid D:\weixinpt\htdocs\App\Runtime\Cache\Home\e2f942c7605416e15e915e7bb63150d2.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2018-03-07T23:42:06+08:00 ] 139.205.6.192 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: exec Jp_getcustBasket 579512 [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2018-03-07T23:42:06+08:00 ] 139.205.6.192 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: exec Jp_getcust_neiqin 386926 [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2018-03-07T23:42:25+08:00 ] 182.131.11.51 /index.php/Home/Goods/showspfl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: exec Jp_getgoodstype  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2018-03-07T23:42:25+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2018-03-07T23:42:25+08:00 ] 223.85.132.24 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2018-03-07T23:42:26+08:00 ] 182.131.11.51 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='sxh13993914170'  [ RunTime:0.0023s ]
+SQL: select fisshy from t_bd_customer where fcustid=124371 [ RunTime:0.0015s ]
+SQL: exec Jp_getindexgoods 124371 [ RunTime:0.0098s ]
+SQL: exec Jp_getindexgoods_cw 124371 [ RunTime:0.0303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2018-03-07T23:42:28+08:00 ] 124.161.27.116 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2018-03-07T23:42:28+08:00 ] 182.131.11.51 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2018-03-07T23:42:37+08:00 ] 182.131.11.51 /index.php/Home/Cust
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: select fname from t_bd_customer_l where fcustid=124371 [ RunTime:0.0021s ]
+SQL: exec Jp_getcustOrdersum_xb 124371 [ RunTime:1.0492s ]
+SQL: exec Jp_getcustAccount 124371 [ RunTime:5.3999s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2018-03-07T23:42:38+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001629s ]
+
+[ 2018-03-07T23:42:38+08:00 ] 182.131.11.51 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2018-03-07T23:42:42+08:00 ] 124.161.27.116 /?code=YYjyV5lOrxRJ_fgL5okmIfcqSg97wGCEAFP5o158DcM&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='sxh13993914170'  [ RunTime:0.0024s ]
+SQL: select fisshy from t_bd_customer where fcustid=124371 [ RunTime:0.0015s ]
+SQL: exec Jp_getindexgoods 124371 [ RunTime:0.0096s ]
+SQL: exec Jp_getindexgoods_cw 124371 [ RunTime:0.0306s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2018-03-07T23:42:43+08:00 ] 182.131.11.51 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2018-03-07T23:42:43+08:00 ] 223.85.132.24 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2018-03-07T23:42:43+08:00 ] 123.151.76.245 /?code=YYjyV5lOrxRJ_fgL5okmIfcqSg97wGCEAFP5o158DcM&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='sxh13993914170'  [ RunTime:0.0022s ]
+SQL: select fisshy from t_bd_customer where fcustid=124371 [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003202s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003933s ]
+
+[ 2018-03-07T23:43:40+08:00 ] 61.151.178.168 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+NOTIC: [8] Undefined index: code D:\weixinpt\htdocs\App\Home\Controller\CommonController.class.php 第 32 行.
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname=''  [ RunTime:0.0022s ]
+SQL: select fisshy from t_bd_customer where fcustid=613308 [ RunTime:0.0015s ]
+SQL: exec Jp_getindexgoods 613308 [ RunTime:0.0039s ]
+SQL: exec Jp_getindexgoods_cw 613308 [ RunTime:0.0258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2018-03-07T23:43:41+08:00 ] 61.151.178.168 /?code=OYUFogX524xn-ZIONPXFgvdkiPI7eZih3-sp4nQ15oU&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='CQ13110362123'  [ RunTime:0.0087s ]
+SQL: select fisshy from t_bd_customer where fcustid=129706 [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003251s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003980s ]
+
+[ 2018-03-07T23:43:41+08:00 ] 61.151.178.168 /?code=V6zja3m3y00RX5_gycxkZDc5kldCwadZNaeyZMTFbXc&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='CQ13110362123'  [ RunTime:0.0021s ]
+SQL: select fisshy from t_bd_customer where fcustid=129706 [ RunTime:0.0012s ]
+SQL: exec Jp_getindexgoods 129706 [ RunTime:0.0099s ]
+SQL: exec Jp_getindexgoods_cw 129706 [ RunTime:0.0128s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2018-03-07T23:44:14+08:00 ] 61.151.178.168 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='CQ13110362123'  [ RunTime:0.0017s ]
+SQL: select fisshy from t_bd_customer where fcustid=129706 [ RunTime:0.0013s ]
+SQL: exec Jp_getindexgoods 129706 [ RunTime:0.0118s ]
+SQL: exec Jp_getindexgoods_cw 129706 [ RunTime:0.0128s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2018-03-07T23:44:17+08:00 ] 61.151.178.168 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: exec Jp_getcustBasket 132646 [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2018-03-07T23:44:17+08:00 ] 61.151.178.168 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: exec Jp_getcust_neiqin 129706 [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2018-03-07T23:44:19+08:00 ] 61.151.178.168 /index.php/Home/Cust/showorderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: exec Jp_getorderlist 129706,'dfk' [ RunTime:0.0624s ]
+SQL: exec Jp_getcustOrdersum 129706 [ RunTime:0.8633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2018-03-07T23:44:26+08:00 ] 58.247.212.69 /index.php/Home/Cust/showorderlist?status=dsh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: exec Jp_getorderlist 129706,'dsh' [ RunTime:0.5688s ]
+SQL: exec Jp_getorderlist_detail 621368  [ RunTime:0.0350s ]
+SQL: exec Jp_getorderlist_detail 620640  [ RunTime:0.0324s ]
+SQL: exec Jp_getcustOrdersum 129706 [ RunTime:0.6702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2018-03-07T23:44:28+08:00 ] 61.151.178.168 /index.php/Home/Cust/showorderlist?status=dsh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: exec Jp_getorderlist 129706,'dsh' [ RunTime:1.1904s ]
+SQL: exec Jp_getorderlist_detail 621368  [ RunTime:0.0408s ]
+SQL: exec Jp_getorderlist_detail 620640  [ RunTime:0.0382s ]
+SQL: exec Jp_getcustOrdersum 129706 [ RunTime:0.7720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2018-03-07T23:44:34+08:00 ] 61.151.178.168 /index.php/Home/Cust/copybillbuy?fid=621368&fid=621368
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: exec Jp_copybill_buy 621368,132646 [ RunTime:0.1551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2018-03-07T23:44:37+08:00 ] 58.247.212.69 /index.php/Home/Checkout?zj=1&sel_goods=1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: select fname from t_bd_customer_l where fcustid=129706 [ RunTime:0.0044s ]
+SQL: select a.fcustid,fname,FADDRESS,b.fcontact,a.fentryid,a.fisdefaultconsignee as isdef from T_BD_CUSTLOCATION a left join T_BD_CUSTCONTACT b on a.FTCONTACT=b.FCONTACTID  where a.FCUSTID=129706 order by a.FISDEFAULTCONSIGNEE desc  [ RunTime:0.0081s ]
+SQL: select fcontact from T_BD_CUSTCONTACT where fcustid=129706 order by fisdefault desc   [ RunTime:0.0040s ]
+SQL: exec  Jp_getgoodsSPM 129706 [ RunTime:0.0501s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0105s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1063s ]
+SQL: exec Jp_getgoodsBasket_checked 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0181s ]
+SQL: exec Jp_getcustAccount 129706 [ RunTime:1.0794s ]
+NOTIC: [8] Undefined index: isbox D:\weixinpt\htdocs\App\Home\Controller\CheckoutController.class.php 第 35 行.
+SQL: exec Jp_getCust_fanliRule 129706 [ RunTime:0.0019s ]
+SQL: select fparameters from T_BAS_SysParameter where FPARAMETEROBJID='PAEZ_weixinzfgl' [ RunTime:0.0019s ]
+SQL: select f_wxyn from t_bd_customer where fcustid=129706 [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: F_PAEZ_Chkqtyhdk D:\weixinpt\htdocs\App\Home\Controller\CheckoutController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2018-03-07T23:44:38+08:00 ] 58.247.212.69 /index.php/Home/Checkout/loadorderfj?sel_goods=1334109%2C1334110%2C1334111%2C1334112%2C1334113%2C1334114%2C1334115%2C1334116&_=1520437477915
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0124s ]
+SQL: exec Jp_getgoodsSPM 129706 [ RunTime:0.0500s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1076s ]
+SQL: exec Jp_getjiesuanfujia '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2018-03-07T23:44:38+08:00 ] 61.151.178.168 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1334109&sel_goods%5B%5D=1334110&sel_goods%5B%5D=1334111&sel_goods%5B%5D=1334112&sel_goods%5B%5D=1334113&sel_goods%5B%5D=1334114&sel_goods%5B%5D=1334115&sel_goods%5B%5D=1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: exec Jp_getgoodsBasket_sum 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2018-03-07T23:44:40+08:00 ] 58.247.212.69 /index.php/Home/Basket/setbaseketqty?publishid=1334110&qty=39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: exec Jp_setbasketqty 132646,1334110,39 [ RunTime:0.0065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2018-03-07T23:44:40+08:00 ] 58.247.212.69 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1334109&sel_goods%5B%5D=1334110&sel_goods%5B%5D=1334111&sel_goods%5B%5D=1334112&sel_goods%5B%5D=1334113&sel_goods%5B%5D=1334114&sel_goods%5B%5D=1334115&sel_goods%5B%5D=1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: exec Jp_getgoodsBasket_sum 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2018-03-07T23:44:40+08:00 ] 61.151.178.168 /index.php/Home/Checkout/loadorderfj?sel_goods=1334109%2C1334110%2C1334111%2C1334112%2C1334113%2C1334114%2C1334115%2C1334116&_=1520437477916
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0112s ]
+SQL: exec Jp_getgoodsSPM 129706 [ RunTime:0.0485s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1042s ]
+SQL: exec Jp_getjiesuanfujia '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2018-03-07T23:44:40+08:00 ] 61.151.178.168 /index.php/Home/Basket/setbaseketqty?publishid=1334110&qty=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: exec Jp_setbasketqty 132646,1334110,38 [ RunTime:0.0118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2018-03-07T23:44:41+08:00 ] 58.247.212.69 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1334109&sel_goods%5B%5D=1334110&sel_goods%5B%5D=1334111&sel_goods%5B%5D=1334112&sel_goods%5B%5D=1334113&sel_goods%5B%5D=1334114&sel_goods%5B%5D=1334115&sel_goods%5B%5D=1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: exec Jp_getgoodsBasket_sum 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2018-03-07T23:44:41+08:00 ] 58.247.212.69 /index.php/Home/Checkout/loadorderfj?sel_goods=1334109%2C1334110%2C1334111%2C1334112%2C1334113%2C1334114%2C1334115%2C1334116&_=1520437477917
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0102s ]
+SQL: exec Jp_getgoodsSPM 129706 [ RunTime:0.0483s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1031s ]
+SQL: exec Jp_getjiesuanfujia '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2018-03-07T23:44:41+08:00 ] 61.151.178.168 /index.php/Home/Basket/setbaseketqty?publishid=1334110&qty=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: exec Jp_setbasketqty 132646,1334110,37 [ RunTime:0.0119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2018-03-07T23:44:42+08:00 ] 61.151.178.168 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1334109&sel_goods%5B%5D=1334110&sel_goods%5B%5D=1334111&sel_goods%5B%5D=1334112&sel_goods%5B%5D=1334113&sel_goods%5B%5D=1334114&sel_goods%5B%5D=1334115&sel_goods%5B%5D=1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+SQL: exec Jp_getgoodsBasket_sum 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2018-03-07T23:44:42+08:00 ] 61.151.178.168 /index.php/Home/Checkout/loadorderfj?sel_goods=1334109%2C1334110%2C1334111%2C1334112%2C1334113%2C1334114%2C1334115%2C1334116&_=1520437477918
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0113s ]
+SQL: exec Jp_getgoodsSPM 129706 [ RunTime:0.0483s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1041s ]
+SQL: exec Jp_getjiesuanfujia '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2018-03-07T23:44:47+08:00 ] 61.151.178.168 /index.php/Home/Basket/setbaseketqty?publishid=1334109&qty=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: exec Jp_setbasketqty 132646,1334109,3 [ RunTime:0.0054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2018-03-07T23:44:47+08:00 ] 58.247.212.69 /index.php/Home/Checkout/loadorderfj?sel_goods=1334109%2C1334110%2C1334111%2C1334112%2C1334113%2C1334114%2C1334115%2C1334116&_=1520437477919
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0121s ]
+SQL: exec Jp_getgoodsSPM 129706 [ RunTime:0.0484s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1045s ]
+SQL: exec Jp_getjiesuanfujia '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2018-03-07T23:44:47+08:00 ] 58.247.212.69 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1334109&sel_goods%5B%5D=1334110&sel_goods%5B%5D=1334111&sel_goods%5B%5D=1334112&sel_goods%5B%5D=1334113&sel_goods%5B%5D=1334114&sel_goods%5B%5D=1334115&sel_goods%5B%5D=1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: exec Jp_getgoodsBasket_sum 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2018-03-07T23:44:50+08:00 ] 61.151.178.168 /index.php/Home/Basket/setbaseketqty?publishid=1334115&qty=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: exec Jp_setbasketqty 132646,1334115,6 [ RunTime:0.0093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2018-03-07T23:44:50+08:00 ] 58.247.212.69 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1334109&sel_goods%5B%5D=1334110&sel_goods%5B%5D=1334111&sel_goods%5B%5D=1334112&sel_goods%5B%5D=1334113&sel_goods%5B%5D=1334114&sel_goods%5B%5D=1334115&sel_goods%5B%5D=1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: exec Jp_getgoodsBasket_sum 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001695s ]
+
+[ 2018-03-07T23:44:51+08:00 ] 61.151.178.168 /index.php/Home/Checkout/loadorderfj?sel_goods=1334109%2C1334110%2C1334111%2C1334112%2C1334113%2C1334114%2C1334115%2C1334116&_=1520437477920
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0113s ]
+SQL: exec Jp_getgoodsSPM 129706 [ RunTime:0.0481s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1048s ]
+SQL: exec Jp_getjiesuanfujia '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2018-03-07T23:44:51+08:00 ] 61.151.178.168 /index.php/Home/Basket/setbaseketqty?publishid=1334115&qty=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: exec Jp_setbasketqty 132646,1334115,5 [ RunTime:0.0099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2018-03-07T23:44:51+08:00 ] 61.151.178.168 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1334109&sel_goods%5B%5D=1334110&sel_goods%5B%5D=1334111&sel_goods%5B%5D=1334112&sel_goods%5B%5D=1334113&sel_goods%5B%5D=1334114&sel_goods%5B%5D=1334115&sel_goods%5B%5D=1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: exec Jp_getgoodsBasket_sum 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2018-03-07T23:44:51+08:00 ] 61.151.178.168 /index.php/Home/Checkout/loadorderfj?sel_goods=1334109%2C1334110%2C1334111%2C1334112%2C1334113%2C1334114%2C1334115%2C1334116&_=1520437477921
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0099s ]
+SQL: exec Jp_getgoodsSPM 129706 [ RunTime:0.0483s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1108s ]
+SQL: exec Jp_getjiesuanfujia '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2018-03-07T23:44:52+08:00 ] 61.151.178.168 /index.php/Home/Basket/setbaseketqty?publishid=1334115&qty=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: exec Jp_setbasketqty 132646,1334115,4 [ RunTime:0.0098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2018-03-07T23:44:52+08:00 ] 58.247.212.69 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1334109&sel_goods%5B%5D=1334110&sel_goods%5B%5D=1334111&sel_goods%5B%5D=1334112&sel_goods%5B%5D=1334113&sel_goods%5B%5D=1334114&sel_goods%5B%5D=1334115&sel_goods%5B%5D=1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: exec Jp_getgoodsBasket_sum 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2018-03-07T23:44:52+08:00 ] 61.151.178.168 /index.php/Home/Checkout/loadorderfj?sel_goods=1334109%2C1334110%2C1334111%2C1334112%2C1334113%2C1334114%2C1334115%2C1334116&_=1520437477922
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0117s ]
+SQL: exec Jp_getgoodsSPM 129706 [ RunTime:0.0489s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1062s ]
+SQL: exec Jp_getjiesuanfujia '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2018-03-07T23:44:53+08:00 ] 58.247.212.69 /index.php/Home/Basket/setbaseketqty?publishid=1334114&qty=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: exec Jp_setbasketqty 132646,1334114,2 [ RunTime:0.0121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2018-03-07T23:44:54+08:00 ] 58.247.212.69 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1334109&sel_goods%5B%5D=1334110&sel_goods%5B%5D=1334111&sel_goods%5B%5D=1334112&sel_goods%5B%5D=1334113&sel_goods%5B%5D=1334114&sel_goods%5B%5D=1334115&sel_goods%5B%5D=1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: exec Jp_getgoodsBasket_sum 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001724s ]
+
+[ 2018-03-07T23:44:54+08:00 ] 58.247.212.69 /index.php/Home/Checkout/loadorderfj?sel_goods=1334109%2C1334110%2C1334111%2C1334112%2C1334113%2C1334114%2C1334115%2C1334116&_=1520437477923
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0113s ]
+SQL: exec Jp_getgoodsSPM 129706 [ RunTime:0.0493s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1059s ]
+SQL: exec Jp_getjiesuanfujia '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2018-03-07T23:44:55+08:00 ] 61.151.178.168 /index.php/Home/Basket/setbaseketqty?publishid=1334113&qty=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: exec Jp_setbasketqty 132646,1334113,5 [ RunTime:0.0109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2018-03-07T23:44:55+08:00 ] 58.247.212.69 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1334109&sel_goods%5B%5D=1334110&sel_goods%5B%5D=1334111&sel_goods%5B%5D=1334112&sel_goods%5B%5D=1334113&sel_goods%5B%5D=1334114&sel_goods%5B%5D=1334115&sel_goods%5B%5D=1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: exec Jp_getgoodsBasket_sum 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2018-03-07T23:44:55+08:00 ] 58.247.212.69 /index.php/Home/Checkout/loadorderfj?sel_goods=1334109%2C1334110%2C1334111%2C1334112%2C1334113%2C1334114%2C1334115%2C1334116&_=1520437477924
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0117s ]
+SQL: exec Jp_getgoodsSPM 129706 [ RunTime:0.0484s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1057s ]
+SQL: exec Jp_getjiesuanfujia '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2018-03-07T23:44:55+08:00 ] 58.247.212.69 /index.php/Home/Basket/setbaseketqty?publishid=1334113&qty=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: exec Jp_setbasketqty 132646,1334113,6 [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2018-03-07T23:44:55+08:00 ] 61.151.178.168 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1334109&sel_goods%5B%5D=1334110&sel_goods%5B%5D=1334111&sel_goods%5B%5D=1334112&sel_goods%5B%5D=1334113&sel_goods%5B%5D=1334114&sel_goods%5B%5D=1334115&sel_goods%5B%5D=1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: exec Jp_getgoodsBasket_sum 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2018-03-07T23:44:55+08:00 ] 58.247.212.69 /index.php/Home/Checkout/loadorderfj?sel_goods=1334109%2C1334110%2C1334111%2C1334112%2C1334113%2C1334114%2C1334115%2C1334116&_=1520437477925
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0105s ]
+SQL: exec Jp_getgoodsSPM 129706 [ RunTime:0.0496s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1055s ]
+SQL: exec Jp_getjiesuanfujia '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2018-03-07T23:44:57+08:00 ] 58.247.212.69 /index.php/Home/Basket/delbasket?publishid=1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: delete t_cp_goodsbasket where fbuyerid=132646 and fid=1334116 [ RunTime:0.0098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2018-03-07T23:44:59+08:00 ] 58.247.212.69 /index.php/Home/Checkout?zj=1&sel_goods=1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: select fname from t_bd_customer_l where fcustid=129706 [ RunTime:0.0017s ]
+SQL: select a.fcustid,fname,FADDRESS,b.fcontact,a.fentryid,a.fisdefaultconsignee as isdef from T_BD_CUSTLOCATION a left join T_BD_CUSTCONTACT b on a.FTCONTACT=b.FCONTACTID  where a.FCUSTID=129706 order by a.FISDEFAULTCONSIGNEE desc  [ RunTime:0.0017s ]
+SQL: select fcontact from T_BD_CUSTCONTACT where fcustid=129706 order by fisdefault desc   [ RunTime:0.0018s ]
+SQL: exec  Jp_getgoodsSPM 129706 [ RunTime:0.0487s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0112s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1101s ]
+SQL: exec Jp_getgoodsBasket_checked 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0189s ]
+SQL: exec Jp_getcustAccount 129706 [ RunTime:1.0927s ]
+NOTIC: [8] Undefined index: isbox D:\weixinpt\htdocs\App\Home\Controller\CheckoutController.class.php 第 35 行.
+SQL: exec Jp_getCust_fanliRule 129706 [ RunTime:0.0017s ]
+SQL: select fparameters from T_BAS_SysParameter where FPARAMETEROBJID='PAEZ_weixinzfgl' [ RunTime:0.0018s ]
+SQL: select f_wxyn from t_bd_customer where fcustid=129706 [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: F_PAEZ_Chkqtyhdk D:\weixinpt\htdocs\App\Home\Controller\CheckoutController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2018-03-07T23:45:01+08:00 ] 58.247.212.69 /index.php/Home/Checkout/loadorderfj?sel_goods=1334109%2C1334110%2C1334111%2C1334112%2C1334113%2C1334114%2C1334115%2C1334116&_=1520437500448
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0123s ]
+SQL: exec Jp_getgoodsSPM 129706 [ RunTime:0.0489s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1044s ]
+SQL: exec Jp_getjiesuanfujia '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2018-03-07T23:45:01+08:00 ] 61.151.178.168 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1334109&sel_goods%5B%5D=1334110&sel_goods%5B%5D=1334111&sel_goods%5B%5D=1334112&sel_goods%5B%5D=1334113&sel_goods%5B%5D=1334114&sel_goods%5B%5D=1334115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: exec Jp_getgoodsBasket_sum 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115' [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2018-03-07T23:45:06+08:00 ] 58.247.212.69 /index.php/Home/Basket/getbeforeamountsum?amountsum=136&fhrq=2018-03-08
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: exec Jp_getbeforeamountsum '129706','136', '2018-03-08' [ RunTime:0.0653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2018-03-07T23:45:08+08:00 ] 58.247.212.69 /index.php/Home/Checkout/saveOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] Undefined index: upfile D:\weixinpt\htdocs\App\Home\Controller\CheckoutController.class.php 第 177 行.
+SQL: exec Jp_getcust_order_3_check 129706 [ RunTime:0.0723s ]
+SQL: exec Jp_savebefore_kcchk '1334109,1334110,1334111,1334112,1334113,1334114,1334115' [ RunTime:0.0029s ]
+SQL: select fzfpwd from t_cp_userprofile where fuserid=132646 and fzfpwd='MTExMTEx' [ RunTime:0.0043s ]
+SQL: select top 1 F_PAEZ_BASE,F_PAEZ_BASE1 from T_BD_CUSTOMER where F_PAEZ_BASE=fshy2 and fcustid=129706 [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: shyid D:\weixinpt\htdocs\App\Home\Controller\CheckoutController.class.php 第 262 行.
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 't_bd_customer' [ RunTime:0.0041s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [fnumber] FROM [t_bd_customer] WHERE ( fcustid=129706 ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0047s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'v_bd_salesman' [ RunTime:0.0023s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  v_bd_salesman.fnumber FROM [v_bd_salesman] INNER JOIN t_bd_customer on v_bd_salesman.fid=t_bd_customer.fseller  WHERE ( t_bd_customer.fcustid=129706  ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0142s ]
+SQL: exec Jp_update_SalOrder 621964,132646,0,129706,0 [ RunTime:0.0788s ]
+SQL: exec Jp_postOrder 621964,'2018-03-08 23:45:00',129706,132646,0,'','1334109,1334110,1334111,1334112,1334113,1334114,1334115',0 [ RunTime:0.4529s ]
+SQL: exec Jp_setorderjsrecord 621964,0,0.00,1,136.00,0 [ RunTime:0.0507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2018-03-07T23:45:09+08:00 ] 58.247.212.69 /index.php/Home/Index/sendweixinmess?fid=621964&content=%E8%AE%A2%E5%8D%95%E6%9D%A5%E4%BA%86%EF%BC%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: exec Jp_getorder_songhuoyuan 621964 [ RunTime:0.1586s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\weixinpt\htdocs\App\Common\Common\function.php 第 621 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2018-03-07T23:45:10+08:00 ] 61.151.178.168 /index.php/Home/Checkout/showpayment?FID=621964&FHTIME=2018-03-08%2023:45:00&api_msg=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: exec Jp_getBillsum 621964 [ RunTime:0.0022s ]
+SQL: exec Jp_getorderjsqk 621964 [ RunTime:0.0216s ]
+SQL: exec Jp_getcustAccount 129706 [ RunTime:1.1544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2018-03-07T23:45:14+08:00 ] 61.151.178.168 /index.php/Home/Abcpay/index/?order_billno=XSDD201803004091&order_id=621964&total_fee=136.00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: select a.FENTRYID,FACCOUNTNAME,FBANKCODE from T_BD_CUSTBANK a where a.fcustid=129706 order by FISDEFAULT desc   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: to D:\weixinpt\htdocs\App\Runtime\Cache\Home\f59ed20dc9a6dce5e68a0e10375906d3.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2018-03-07T23:45:16+08:00 ] 58.247.212.69 /index.php/Home/Abcpay/abcpay?fkaccount=6228482918575993978&order_id=621964&order_billno=XSDD201803004091&total_fee=136.00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: select 1 from Jt_orderjsrecord where billid=621964 and fssje=fzfje  [ RunTime:0.0228s ]
+SQL: select a.FENTRYID,FACCOUNTNAME,FBANKCODE from T_BD_CUSTBANK a where a.fcustid=129706 and fbankcode='6228482918575993978' [ RunTime:0.0052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2018-03-07T23:45:24+08:00 ] 61.151.178.168 /index.php/Home/Abc/abcpay_?fkaccount=6228482918575993978&order_id=621964&order_billno=XSDD201803004091&total_fee=136.00&fkaccname=%E9%99%88%E5%85%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'jt_abc_sendrecord' [ RunTime:0.0024s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  COUNT(*) AS tp_count FROM [jt_abc_sendrecord] WHERE ( billno='XSDD201803004091' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0313s ]
+SQL: insert into jt_abc_sendrecord(billno) values('XSDD201803004091') [ RunTime:0.0090s ]
+SQL: exec Jp_order_zfupdate 621964,1,136.00 [ RunTime:0.1663s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 't_sal_order' [ RunTime:0.0041s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [fcustid] FROM [t_sal_order] WHERE ( fbillno='XSDD201803004091' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0056s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 't_bd_customer' [ RunTime:0.0044s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [fnumber] FROM [t_bd_customer] WHERE ( fcustid=129706 ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0013s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'v_bd_salesman' [ RunTime:0.0018s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  v_bd_salesman.fnumber FROM [v_bd_salesman] INNER JOIN t_bd_customer on v_bd_salesman.fid=t_bd_customer.fseller  WHERE ( t_bd_customer.fcustid=129706  ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0015s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  [fid] FROM [t_sal_order] WHERE ( fbillno='XSDD201803004091' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0044s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 't_ar_receivebill' [ RunTime:0.0040s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  COUNT(*) AS tp_count FROM [t_ar_receivebill] WHERE ( F_PAEZ_Text='XSDD201803004091' ) ) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.0691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001569s ]
+
+[ 2018-03-07T23:45:33+08:00 ] 61.151.178.168 /index.php/Home/Cust/showorderdetail?billid=621964
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: exec Jp_getorderdetail 621964 [ RunTime:4.8802s ]
+SQL: exec Jp_getCustAddress_order 129706,0 [ RunTime:0.0018s ]
+SQL: exec Jp_getorderlist_detail 621964  [ RunTime:0.0270s ]
+SQL: exec Jp_getorderjsqk 621964 [ RunTime:0.0141s ]
+SQL: exec Jp_getorder_ysqk 621964 [ RunTime:0.0016s ]
+SQL: exec Jp_get_order_star 621964 [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: star D:\weixinpt\htdocs\App\Home\Controller\CustController.class.php 第 405 行.
+SQL: select fparameters from T_BAS_SysParameter where FPARAMETEROBJID='PAEZ_weixinzfgl' [ RunTime:0.0021s ]
+SQL: select f_wxyn from t_bd_customer where fcustid=129706 [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: F_PAEZ_Chkqtyhdk D:\weixinpt\htdocs\App\Home\Controller\CustController.class.php 第 166 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2018-03-07T23:45:36+08:00 ] 58.247.212.69 /index.php/Home/Abcpay/index/?order_billno=XSDD201803004091&order_id=621964&total_fee=136.00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: select a.FENTRYID,FACCOUNTNAME,FBANKCODE from T_BD_CUSTBANK a where a.fcustid=129706 order by FISDEFAULT desc   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: to D:\weixinpt\htdocs\App\Runtime\Cache\Home\f59ed20dc9a6dce5e68a0e10375906d3.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2018-03-07T23:45:38+08:00 ] 58.247.212.69 /index.php/Home/Checkout/showpayment?FID=621964&FHTIME=2018-03-08%2023:45:00&api_msg=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: exec Jp_getBillsum 621964 [ RunTime:0.0020s ]
+SQL: exec Jp_getorderjsqk 621964 [ RunTime:0.0216s ]
+SQL: exec Jp_getcustAccount 129706 [ RunTime:1.1435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2018-03-07T23:45:40+08:00 ] 61.151.178.168 /index.php/Home/Checkout/showpayment?FID=621964&FHTIME=2018-03-08%2023:45:00&api_msg=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: exec Jp_getBillsum 621964 [ RunTime:0.0016s ]
+SQL: exec Jp_getorderjsqk 621964 [ RunTime:0.0212s ]
+SQL: exec Jp_getcustAccount 129706 [ RunTime:1.1830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2018-03-07T23:45:41+08:00 ] 58.247.212.69 /index.php/Home/Checkout?zj=1&sel_goods=1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: select fname from t_bd_customer_l where fcustid=129706 [ RunTime:0.0019s ]
+SQL: select a.fcustid,fname,FADDRESS,b.fcontact,a.fentryid,a.fisdefaultconsignee as isdef from T_BD_CUSTLOCATION a left join T_BD_CUSTCONTACT b on a.FTCONTACT=b.FCONTACTID  where a.FCUSTID=129706 order by a.FISDEFAULTCONSIGNEE desc  [ RunTime:0.0017s ]
+SQL: select fcontact from T_BD_CUSTCONTACT where fcustid=129706 order by fisdefault desc   [ RunTime:0.0018s ]
+SQL: exec  Jp_getgoodsSPM 129706 [ RunTime:0.0489s ]
+SQL: exec Jp_Autocalcbox '1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0104s ]
+SQL: exec Jp_auto_spm_calc 132646,129706,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.1054s ]
+SQL: exec Jp_getgoodsBasket_checked 132646,'1334109,1334110,1334111,1334112,1334113,1334114,1334115,1334116' [ RunTime:0.0024s ]
+SQL: exec Jp_getcustAccount 129706 [ RunTime:1.0866s ]
+NOTIC: [8] Undefined index: isbox D:\weixinpt\htdocs\App\Home\Controller\CheckoutController.class.php 第 35 行.
+SQL: exec Jp_getCust_fanliRule 129706 [ RunTime:0.0019s ]
+SQL: select fparameters from T_BAS_SysParameter where FPARAMETEROBJID='PAEZ_weixinzfgl' [ RunTime:0.0026s ]
+SQL: select f_wxyn from t_bd_customer where fcustid=129706 [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: F_PAEZ_Chkqtyhdk D:\weixinpt\htdocs\App\Home\Controller\CheckoutController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000427s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2018-03-07T23:45:42+08:00 ] 58.247.212.69 /index.php/Home/Cust/showorderlist?status=dsh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: exec Jp_getorderlist 129706,'dsh' [ RunTime:0.5743s ]
+SQL: exec Jp_getorderlist_detail 621368  [ RunTime:0.0310s ]
+SQL: exec Jp_getorderlist_detail 620640  [ RunTime:0.0280s ]
+SQL: exec Jp_getcustOrdersum 129706 [ RunTime:0.6911s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2018-03-07T23:45:43+08:00 ] 58.247.212.69 /index.php/Home/Cust/showorderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: exec Jp_getorderlist 129706,'dfk' [ RunTime:0.0666s ]
+SQL: exec Jp_getcustOrdersum 129706 [ RunTime:0.8055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2018-03-07T23:45:43+08:00 ] 58.247.212.69 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='CQ13110362123'  [ RunTime:0.0020s ]
+SQL: select fisshy from t_bd_customer where fcustid=129706 [ RunTime:0.0014s ]
+SQL: exec Jp_getindexgoods 129706 [ RunTime:0.0097s ]
+SQL: exec Jp_getindexgoods_cw 129706 [ RunTime:0.0126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2018-03-07T23:51:21+08:00 ] 223.85.132.35 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+NOTIC: [8] Undefined index: code D:\weixinpt\htdocs\App\Home\Controller\CommonController.class.php 第 32 行.
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname=''  [ RunTime:0.0020s ]
+SQL: select fisshy from t_bd_customer where fcustid=613308 [ RunTime:0.0014s ]
+SQL: exec Jp_getindexgoods 613308 [ RunTime:0.0040s ]
+SQL: exec Jp_getindexgoods_cw 613308 [ RunTime:0.0261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2018-03-07T23:51:23+08:00 ] 223.85.132.35 /?code=hs-GGY4I478jvdIxw0ryu6UPSKHHjsoKPKkudl5ZNwQ&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='zhq9133678'  [ RunTime:0.0086s ]
+SQL: select fisshy from t_bd_customer where fcustid=128598 [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005499s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003316s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004073s ]
+
+[ 2018-03-07T23:51:23+08:00 ] 182.131.11.251 /?code=0dd00INt1o6CTPRfRXjvbpVsU7guE_Y5nedubyE0nCQ&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='zhq9133678'  [ RunTime:0.0017s ]
+SQL: select fisshy from t_bd_customer where fcustid=128598 [ RunTime:0.0013s ]
+SQL: exec Jp_getindexgoods 128598 [ RunTime:0.0101s ]
+SQL: exec Jp_getindexgoods_cw 128598 [ RunTime:0.0153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2018-03-07T23:51:25+08:00 ] 182.131.11.251 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: exec Jp_getcustBasket 263969 [ RunTime:0.0235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2018-03-07T23:51:25+08:00 ] 182.131.11.251 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: exec Jp_getcust_neiqin 128598 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2018-03-07T23:51:27+08:00 ] 182.131.11.251 /index.php/Home/Basket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: exec Jp_getgoodsBasket 263969,0 [ RunTime:0.0326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2018-03-07T23:51:30+08:00 ] 182.131.11.251 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1332503&sel_goods%5B%5D=1332505&sel_goods%5B%5D=1332506&sel_goods%5B%5D=1332507&sel_goods%5B%5D=1332508&sel_goods%5B%5D=1332509&sel_goods%5B%5D=1332510&sel_goods%5B%5D=1332511&sel_goods%5B%5D=1332513&sel_goods%5B%5D=1332514&sel_goods%5B%5D=1332515&sel_goods%5B%5D=1332518&sel_goods%5B%5D=1332523&sel_goods%5B%5D=1332527
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: exec Jp_getgoodsBasket_sum 263969,'1332503,1332505,1332506,1332507,1332508,1332509,1332510,1332511,1332513,1332514,1332515,1332518,1332523,1332527' [ RunTime:0.0066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2018-03-07T23:54:32+08:00 ] 182.140.177.145 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+NOTIC: [8] Undefined index: code D:\weixinpt\htdocs\App\Home\Controller\CommonController.class.php 第 32 行.
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname=''  [ RunTime:0.0021s ]
+SQL: select fisshy from t_bd_customer where fcustid=613308 [ RunTime:0.0015s ]
+SQL: exec Jp_getindexgoods 613308 [ RunTime:0.0040s ]
+SQL: exec Jp_getindexgoods_cw 613308 [ RunTime:0.0261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2018-03-07T23:54:33+08:00 ] 182.140.177.145 /?code=u6-K6J4tGzHK_bEIuvyXA_ZU0tqvQNUbd2HT2Z-3Ylw&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='zts197921'  [ RunTime:0.0085s ]
+SQL: select fisshy from t_bd_customer where fcustid=129839 [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003277s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004017s ]
+
+[ 2018-03-07T23:54:33+08:00 ] 182.140.177.145 /?code=8j45L0jNSOoTpXPTwDjQYb_2SMieAvHnskWVZZFzHMo&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='zts197921'  [ RunTime:0.0021s ]
+SQL: select fisshy from t_bd_customer where fcustid=129839 [ RunTime:0.0015s ]
+
+[ 2018-03-07T23:54:34+08:00 ] 182.140.177.145 /index.php/Home/Shy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: exec Jp_get_sfaudit_param [ RunTime:0.0016s ]
+SQL: select b.fid from t_bd_customer_l a,t_hr_empinfo_l b where a.fname=b.fname and a.fcustid=129839 [ RunTime:0.0075s ]
+SQL: exec Jp_getorderlist_shyqiangdan 102082,0,'A' [ RunTime:0.1167s ]
+SQL: exec Jp_getorderlist_detail 621962  [ RunTime:0.0384s ]
+SQL: exec Jp_getorderlist_detail 621947  [ RunTime:0.0370s ]
+SQL: exec Jp_getorderlist_detail 621938  [ RunTime:0.0358s ]
+SQL: exec Jp_getorderlist_detail 621845  [ RunTime:0.0353s ]
+SQL: exec Jp_getorderlist_detail 621761  [ RunTime:0.0319s ]
+SQL: exec Jp_getorderlist_detail 621753  [ RunTime:0.0326s ]
+SQL: exec Jp_getorderlist_detail 621641  [ RunTime:0.0317s ]
+SQL: select b.fid from t_bd_customer_l a,t_hr_empinfo_l b where a.fname=b.fname and a.fcustid=129839 [ RunTime:0.0025s ]
+SQL: exec Jp_getorderlist_shy_dsh 102082,0,'A' [ RunTime:0.1550s ]
+SQL: select b.fid from t_bd_customer_l a,t_hr_empinfo_l b where a.fname=b.fname and a.fcustid=129839 [ RunTime:0.0029s ]
+SQL: exec Jp_getorderlist_shy_over 102082,0,'A' [ RunTime:0.1311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2018-03-07T23:55:06+08:00 ] 182.131.11.51 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='sxh13993914170'  [ RunTime:0.0022s ]
+SQL: select fisshy from t_bd_customer where fcustid=124371 [ RunTime:0.0016s ]
+SQL: exec Jp_getindexgoods 124371 [ RunTime:0.0104s ]
+SQL: exec Jp_getindexgoods_cw 124371 [ RunTime:0.0318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2018-03-07T23:55:07+08:00 ] 223.85.132.24 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2018-03-07T23:55:07+08:00 ] 182.131.11.51 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2018-03-07T23:55:17+08:00 ] 182.131.11.51 /index.php/Home/Cust
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: select fname from t_bd_customer_l where fcustid=124371 [ RunTime:0.0018s ]
+SQL: exec Jp_getcustOrdersum_xb 124371 [ RunTime:1.0781s ]
+SQL: exec Jp_getcustAccount 124371 [ RunTime:5.4049s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2018-03-07T23:55:18+08:00 ] 223.85.132.24 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2018-03-07T23:55:18+08:00 ] 223.85.132.24 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2018-03-07T23:55:25+08:00 ] 123.249.76.125 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [8] Undefined index: code D:\weixinpt\htdocs\App\Home\Controller\CommonController.class.php 第 32 行.
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname=''  [ RunTime:0.0022s ]
+SQL: select fisshy from t_bd_customer where fcustid=613308 [ RunTime:0.0015s ]
+SQL: exec Jp_getindexgoods 613308 [ RunTime:0.0037s ]
+SQL: exec Jp_getindexgoods_cw 613308 [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2018-03-07T23:55:50+08:00 ] 182.131.11.51 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='sxh13993914170'  [ RunTime:0.0023s ]
+SQL: select fisshy from t_bd_customer where fcustid=124371 [ RunTime:0.0016s ]
+SQL: exec Jp_getindexgoods 124371 [ RunTime:0.0098s ]
+SQL: exec Jp_getindexgoods_cw 124371 [ RunTime:0.0308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2018-03-07T23:55:51+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2018-03-07T23:55:51+08:00 ] 223.85.132.24 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2018-03-07T23:55:53+08:00 ] 182.131.11.51 /index.php/Home/Goods/showspfl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: exec Jp_getgoodstype  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2018-03-07T23:55:54+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2018-03-07T23:55:54+08:00 ] 182.131.11.51 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2018-03-07T23:55:57+08:00 ] 182.131.11.51 /index.php/Home/Goods/showcategory?categid=133001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: exec Jp_getgoodslist 124371,133001,'',1,1000 [ RunTime:0.0136s ]
+SQL: exec Jp_getgoodslist 124371,133001,'' [ RunTime:0.0121s ]
+NOTIC: [8] Undefined index: count D:\weixinpt\htdocs\App\Home\Controller\GoodsController.class.php 第 45 行.
+NOTIC: [8] Undefined index: count D:\weixinpt\htdocs\App\Home\Controller\GoodsController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2018-03-07T23:55:58+08:00 ] 182.131.11.51 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2018-03-07T23:55:58+08:00 ] 223.85.132.24 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2018-03-07T23:55:58+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2018-03-07T23:56:24+08:00 ] 182.131.11.51 /index.php/Home/Goods/showspfl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: exec Jp_getgoodstype  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2018-03-07T23:56:24+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2018-03-07T23:56:24+08:00 ] 182.131.11.51 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2018-03-07T23:56:26+08:00 ] 182.131.11.51 /index.php/Home/Goods/showcategory?categid=132998
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: exec Jp_getgoodslist 124371,132998,'',1,1000 [ RunTime:0.0057s ]
+SQL: exec Jp_getgoodslist 124371,132998,'' [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: count D:\weixinpt\htdocs\App\Home\Controller\GoodsController.class.php 第 45 行.
+NOTIC: [8] Undefined index: count D:\weixinpt\htdocs\App\Home\Controller\GoodsController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2018-03-07T23:56:27+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2018-03-07T23:56:27+08:00 ] 182.131.11.51 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2018-03-07T23:56:27+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2018-03-07T23:57:44+08:00 ] 182.131.11.51 /index.php/Home/Goods/showspfl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: exec Jp_getgoodstype  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2018-03-07T23:57:45+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2018-03-07T23:57:45+08:00 ] 182.131.11.51 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2018-03-07T23:57:45+08:00 ] 182.131.10.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='www699314'  [ RunTime:0.0020s ]
+SQL: select fisshy from t_bd_customer where fcustid=128621 [ RunTime:0.0012s ]
+SQL: exec Jp_getindexgoods 128621 [ RunTime:0.0096s ]
+SQL: exec Jp_getindexgoods_cw 128621 [ RunTime:0.0151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2018-03-07T23:57:46+08:00 ] 182.131.10.30 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+SQL: exec Jp_getcustBasket 264118 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2018-03-07T23:57:46+08:00 ] 182.131.10.30 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: exec Jp_getcust_neiqin 128621 [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2018-03-07T23:57:46+08:00 ] 182.131.11.51 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='sxh13993914170'  [ RunTime:0.0022s ]
+SQL: select fisshy from t_bd_customer where fcustid=124371 [ RunTime:0.0015s ]
+SQL: exec Jp_getindexgoods 124371 [ RunTime:0.0111s ]
+SQL: exec Jp_getindexgoods_cw 124371 [ RunTime:0.0318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2018-03-07T23:57:47+08:00 ] 182.131.11.51 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2018-03-07T23:57:47+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2018-03-07T23:57:50+08:00 ] 182.131.10.30 /index.php/Home/Cust
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: select fname from t_bd_customer_l where fcustid=128621 [ RunTime:0.0018s ]
+SQL: exec Jp_getcustOrdersum_xb 128621 [ RunTime:0.7494s ]
+SQL: exec Jp_getcustAccount 128621 [ RunTime:1.0503s ]
+SQL: exec Jp_getcustBasket 264118 [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2018-03-07T23:57:51+08:00 ] 223.85.132.24 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: exec Jp_getcustBasket 264118 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2018-03-07T23:57:51+08:00 ] 182.131.10.30 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: exec Jp_getcust_neiqin 128621 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2018-03-07T23:57:54+08:00 ] 223.85.132.24 /index.php/Home/Cust/showorderlist?status=dfh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: exec Jp_getorderlist 128621,'dfh' [ RunTime:0.0712s ]
+SQL: exec Jp_getorderlist_detail 621931  [ RunTime:0.0349s ]
+SQL: exec Jp_getcustOrdersum 128621 [ RunTime:0.7399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2018-03-07T23:57:59+08:00 ] 223.85.132.24 /index.php/Home/Cust
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: select fname from t_bd_customer_l where fcustid=124371 [ RunTime:0.0022s ]
+SQL: exec Jp_getcustOrdersum_xb 124371 [ RunTime:1.0162s ]
+SQL: exec Jp_getcustAccount 124371 [ RunTime:5.4740s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2018-03-07T23:58:00+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2018-03-07T23:58:00+08:00 ] 182.131.11.51 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2018-03-07T23:58:02+08:00 ] 182.131.11.51 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: select b.fuserid,b.fcustomerid,b.fdefaultorgid,fcustomernumber,b.fcustomermasterid,fisadmin,a.fname  from t_sec_user a,t_cp_userprofile b where a.fuserid=b.fuserid and a.fname='sxh13993914170'  [ RunTime:0.0024s ]
+SQL: select fisshy from t_bd_customer where fcustid=124371 [ RunTime:0.0015s ]
+SQL: exec Jp_getindexgoods 124371 [ RunTime:0.0098s ]
+SQL: exec Jp_getindexgoods_cw 124371 [ RunTime:0.0315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2018-03-07T23:58:03+08:00 ] 182.131.11.51 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: exec Jp_getcust_neiqin 124371 [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2018-03-07T23:58:03+08:00 ] 182.131.11.51 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: exec Jp_getcustBasket 311116 [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2018-03-07T23:58:30+08:00 ] 182.131.10.30 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+SQL: exec Jp_getcustBasket 264118 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2018-03-07T23:58:30+08:00 ] 182.131.10.30 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: exec Jp_getcust_neiqin 128621 [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2018-03-07T23:58:32+08:00 ] 182.131.10.30 /index.php/Home/Index/getcustneiqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: exec Jp_getcust_neiqin 128621 [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2018-03-07T23:58:32+08:00 ] 182.131.10.30 /index.php/Home/Index/getbasketcount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: exec Jp_getcustBasket 264118 [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+

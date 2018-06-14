@@ -1,0 +1,12 @@
+[ 2018-05-16T20:28:28+08:00 ] 182.131.11.53 /index.php/Home/Basket/getbasketamountsum?sel_goods%5B%5D=1618058&sel_goods%5B%5D=1618060&sel_goods%5B%5D=1618061&sel_goods%5B%5D=1618062&sel_goods%5B%5D=1618063&sel_goods%5B%5D=1618064&sel_goods%5B%5D=1618066&sel_goods%5B%5D=1618068
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: exec Jp_getgoodsBasket_sum 263978,'1618058,1618060,1618061,1618062,1618063,1618064,1618066,1618068' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+

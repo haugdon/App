@@ -1,0 +1,152 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <meta name="Generator" content="ECSHOP v2.7.3"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>交易明细列表-雪宝集团</title>
+    <meta name="Keywords" content=""/>
+    <meta name="Description" content=""/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/assets/css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/assets/css/user.css"/>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery-latest.js"></script>
+    <script src="__ROOT__/Public/assets/js/modernizr.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery_002.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/transport.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/common.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/utils.js"></script>
+</head>
+<style>
+    body {
+        font-size: 11px
+    }
+
+    table {
+        /*border-collapse: collapse;*/
+        margin: 0 0px 0 15px;
+        width: 99%;
+        cellspacing: 0;
+        cellpadding: 0;
+    }
+
+    tr {
+        /*border: 1px solid #ccc;*/
+        padding: 0px;
+        margin: 0px;
+    }
+
+    /*设置单元格中文本框的样式*/
+    /*td input[type='text'] {
+        border: 1px solid green;
+        border-radius: 3px;
+        height: 4px;
+    }*/
+
+    td > span {
+        font-size: 11px;
+    }
+</style>
+<body class="body_bj">
+<header>
+    <div class="tab_nav">
+        <div class="header">
+            <div class="h-left"><a class="sb-back" href="javascript:history.back(-1)" title="返回"></a></div>
+            <div class="h-mid">我的交易明细</div>
+            <div class="h-right">
+                <aside class="top_bar">
+                    <div onClick="show_menu();$('#close_btn').addClass('hid');" id="show_more"><a href="javascript:;"></a></div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript" src="__ROOT__/Public/assets/js/mobile.js"></script>
+<div class="goods_nav hid" id="menu">
+    <div class="Triangle">
+        <h2></h2>
+    </div>
+    <ul>
+        <li><a href="/"><span class="menu1"></span><i>首页</i></a></li>
+        <li><a href="__APP__/Home/Goods/showspfl"><span class="menu2"></span><i>分类</i></a></li>
+        <li><a href="__APP__/Home/Basket"><span class="menu3"></span><i>购物车</i></a></li>
+        <li style=" border:0;"><a href="__APP__/Home/Cust"><span class="menu4"></span><i>我的</i></a></li>
+    </ul>
+</div>
+<div id="tbh5v0">
+    <div class="order_tishi" id="order_tishi">只显示最近一个月的记录,如需更多,请联系客服。</div>
+    <volist name="jymxlist" id="vo">
+        <div class="order_list">
+            <table>
+                <tr>
+                    <td><span>日期：{$vo.日期}</span></td>
+                    <td><span>订单号：{$vo.订单编号}</span></td>
+                </tr>
+                <tr>
+                    <td><span>订单金额：{$vo.订单金额}</span></td>
+                    <td><span>折扣金额：{$vo.折扣额}</span></td>
+                </tr>
+                <tr>
+                    <td><span>收款金额：{$vo.收款金额}</span></td>
+                    <td><span>收款方式：{$vo.收款方式}</span></td>
+
+                </tr>
+                <tr>
+                    <td><span>应付金额：{$vo.应付金额}</span></td>
+                    <td><span>退款金额：{$vo.退款金额}</span></td>
+                </tr>
+                <tr>
+                    <td><span>退货数量：{$vo.退货数量}</span></td>
+                </tr>
+            </table>
+        </div>
+    </volist>
+    <div id="J_ItemList" class="order">
+        <volist name="orderlist" id="vo">
+            <li>
+                <ul id="more_element_1" class="single_item info">
+                    <div class="order_list">
+                        <h2>
+                            <span style="font-size:14px;">订单号：<a href="__APP__/Home/Cust/showorderdetail?billid={$vo.fid}">{$vo.fbillno}({$vo.fdate})</a> </span>
+                            <strong style="padding-right:10px;">{$vo.statusname}</strong></h2>
+                        <volist name="vo['childList']" id="childvo">
+                            <a href="__APP__/Home/Goodsdetail?materialid={$childvo.fmaterialid}&publishid={$childvo.publishid} ">
+                                <div class="order_list_goods">
+                                    <dl>
+                                        <dt><img src=__IMGPATH__/imgserver{$childvo.imgpath}></dt>
+                                        <dd class="name"><strong>{$childvo.fshowname}</strong><span></span></dd>
+                                        <dd class="pice">￥{$childvo.ftaxprice|number_format=###, 2, '.', ''}<em>x{$childvo.fqty}</em></dd>
+                                    </dl>
+                                </div>
+                            </a>
+                        </volist>
+                        <if condition="$vo.statusname eq '付款'">
+                            <div class="pic">共{$vo.fqtysum}件商品&nbsp;&nbsp;付款：<strong><span id="amountsum">{$vo.fbilltaxamount}</span></span></strong></div>
+                        </if>
+                        <if condition="$vo.statusname eq '退款'">
+                            <div class="pic">共{$vo.fqtysum}件商品&nbsp;&nbsp;退款：<strong><span id="amountsum">{$vo.fbilltaxamount}</span></span></strong></div>
+                        </if>
+                    </div>
+                </ul>
+            </li>
+        </volist>
+        <div style="display: block;" class="more_loader_spinner"></div>
+    </div>
+    <script>
+        function goTop() {
+            $('html,body').animate({'scrollTop': 0}, 600);
+        }
+    </script>
+    <a href="javascript:goTop();" class="gotop"><img src="__ROOT__/Public/assets/images/topup.png"></a>
+
+</div>
+</body>
+</html>
+<script>
+    $(function () {
+        //var dfkordercount=$("#dfkordercount").text();
+        //$("#order_tishi").hide();
+    });
+</script>

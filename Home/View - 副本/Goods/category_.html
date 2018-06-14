@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="Generator" content="ECSHOP v2.7.3">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>订单详细-雪宝集团</title>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/assets/css/public.css">
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/assets/css/category.css">
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery_002.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/transport.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/common.js"></script>
+    <script type="application/javascript" src="__ROOT__/Public/assets/js/jquery_003.js"></script>
+    <style>
+        .pagelist {
+            text-align: center;
+            background: #f1f1f1;
+            padding: 7px 0;
+        }
+
+        .pagelist a {
+            margin: 0 5px;
+            border: #6185a2 solid 1px;
+            display: inline-block;
+            padding: 2px 6px 1px;
+            line-height: 16px;
+            background: #fff;
+            color: #6185a2;
+        }
+
+        .pagelist span {
+            margin: 0 5px;
+            border: #6185a2 solid 1px;
+            display: inline-block;
+            padding: 2px 6px 1px;
+            line-height: 16px;
+            color: #6185a2;
+            color: #fff;
+            background: #6185a2;
+        }
+    </style>
+</head>
+<body class="body_bj">
+<section style="display: block;" class="_pre">
+    <header id="head_search_box" style="position: fixed; top: 0px; width: 100%; z-index:9999;">
+        <div class="cate_header">
+            <div class="cate_left"><a href="javascript:history.back(-1)" class="sb-back" title="返回">商品列表</a></div>
+            <div class="cate_mid">
+                <form id="searchForm" name="searchForm" method="post">
+                    <div class="text_box" name="list_search_text_box" onClick="return 1;">
+                        <input id="keyword" name="keywords" placeholder="请输入商品名称 货号" class="text" type="text">
+                        <input value="" class="submit" id="list_search_submit" type="button" onclick="javascript:void(search())">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </header>
+    <div style="height:46px;" class="empty_div">&nbsp;</div>
+    <section class="filtrate_term" id="product_sort" style="width: 100%; z-index:9999; border-bottom:1px solid #CCC">
+
+    </section>
+    <div style=" height:5px"></div>
+
+    <div class="touchweb-com_searchListBox openList" id="goods_list">
+        <form action="javascript:void(0)" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY">
+
+            <div id="J_ItemList" style="opacity: 1;">
+                <volist name="list" id="vo">
+
+                    <div id="more_element_1" class="product single_item info">
+                        <li>
+                            <div class="item">
+
+
+                                <div class="goods_images">
+
+
+                                    <a href="__APP__/Home/Goodsdetail?materialid={$vo.fmaterialid_id}&publishid={$vo.publishid}"><img src="__IMGPATH__/imgserver{$vo.imgpath}"></a>
+                                </div>
+                                <dl>
+                                    <dt><a href="__APP__/Home/Goodsdetail?materialid={$vo.fmaterialid_id}&publishid={$vo.publishid}">{$vo.fshowname}</a></dt>
+                                    <dd><i>{$vo.fstdprice}</i>
+                                    </dd>
+                                </dl>
+                            </div>
+
+                            <div class="goods_number">
+                                <div class="ui-number">
+                                    <a class="decrease" onClick="goods_cut({$vo.publishid});">-</a>
+                                    <input class="num" id="number{$vo.publishid}" onBlur="changePrice();" value="1" onFocus="if(value=='1') {value=''}" size="4" maxlength="5" type="text">
+                                    <a class="increase" onClick="goods_add({$vo.publishid});">+</a>
+                                </div>
+                            </div>
+                            <span class="bug_car" onClick="addBasket('{$vo.publishid}');javascript:alert('添加成功！')">
+<img src="__ROOT__/Public/assets/images/index_flow.png">
+</span>
+
+                        </li>
+
+                    </div>
+
+                </volist>
+            </div>
+        </form>
+
+    </div>
+
+</section>
+
+<section class="list-pagination">
+    <div style="" class="pagenav-wrapper" id="J_PageNavWrap">
+        <div class="pagenav-content">
+            <div class="pagelist" id="J_PageNav">
+                {$page}
+
+            </div>
+        </div>
+    </div>
+</section>
+<div style="height:50px; line-height:50px; clear:both;"></div>
+<include file="bottom/index"/>
+<script>
+    function goTop() {
+        $('html,body').animate({'scrollTop': 0}, 600);
+    }
+</script>
+<a href="javascript:goTop();" class="gotop" style=" z-index:9999"><img src="__ROOT__/Public/assets/images/topup.png"></a>
+
+</body>
+</html>
+
+<script>
+    function addBasket(publishid) {
+
+        var qty = $("#number" + publishid).val();
+        var url = "__APP__/Home/Goodsdetail/addBasket";
+        $.get(url, {"publishid": publishid, "qty": qty},
+            function (req) {
+                var result = eval('(' + req + ')');
+                getbasketqtycount();
+                close_choose_attr();
+            });
+    }
+
+    function goods_add(publishid) {
+        var qty = parseInt($("#number" + publishid).val());
+        qty = qty + 1;
+        $("#number" + publishid).val(qty);
+    }
+
+    function goods_cut(publishid) {
+        var qty = parseInt($("#number" + publishid).val());
+        qty = qty - 1;
+        if (qty == 0) {
+            qty = 1;
+        }
+        $("#number" + publishid).val(qty);
+    }
+
+    function search() {
+        var keyword = $("#keyword").val();
+        var categid = "{$categid}";
+        var url = "__APP__/Home/Goods/showcategory?categid=" + categid + "&keyword=" + keyword;
+        location.href = url;
+
+    }
+</script>
+
+<script>
+    $(function () {
+        getbasketqtycount();
+    });
+
+    function getbasketqtycount() {
+        var url = "__APP__/Home/Index/getbasketcount";
+        $.get(url, {}, function (req) {
+            $("#basketqtycount").html(req);
+        });
+    }
+</script>

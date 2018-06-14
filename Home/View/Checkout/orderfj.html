@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="item-list">
+    <volist name="fjlist" id="vo">
+        <li>
+            <div class="inner">
+                <div class="item_img_"><a href="__APP__/home/goodsdetail?materialid={$vo.fmaterialid}&publishid={$vo.fid}"> <img src="__IMGPATH__/imgserver{$vo.imgpath}"></a></div>
+
+                <div class="goods_desc edit_info_1">
+                    <dl>
+                        <dt>{$vo.fname}</dt>
+                    </dl>
+                    <div class="price"><span>￥{$vo.fprice}</span></div>
+                </div>
+                <div class="goods_number">
+                    <div class="qiehuan">
+                        <div class="xm-input-number">
+                            {$vo.fqty}
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div style="background:#FFF; height:2px;">
+
+            </div>
+        </li>
+    </volist>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,77 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- End of Meta -->
+    <!-- Page title -->
+    <title>雪宝集团—经销商订货平台</title>
+    <!-- End of Page title -->
+    <!-- Libraries -->
+    <link href="/Public/login/css/login.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="/Public/login/js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="/Public/login/js/easyTooltip.js"></script>
+    <script type="text/javascript" src="/Public/login/js/jquery-ui-1.7.2.custom.min.js"></script>
+    <!-- End of Libraries -->
+</head>
+<body>
+<div class="bg">
+    <div class="content_body">
+        <div class="logo"><img src="/Public/login/css/images/logo.png" width="333" height="161"/></div>
+        <form action="login?dosubmit=1" method="POST" name="loginfrm">
+            <div class="login_bg">
+                <div style="padding:35px 0 0 155px;"><input style="height: 65px;width: 480px;" name="username" value="" id="username" isautotab="true" class="form_text" placeholder="请输入用户名"/></div>
+                <div style="padding:53px 0 0 155px;"><input style="height: 65px;width: 480px;" type="password" name="password" value="" id="password" isautotab="true" class="form_text" placeholder="请输入密码"/></div>
+                <div style="padding-top:125px;"><input type="button" class="form_submit" onclick="login()" value="登 录" isautotab="true"/></div>
+            </div>
+            <p class="space">
+                <span id="info" style="margin-left:90px;color:red; font-size:36px;font-weight: bold"></span>
+            </p>
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>
+<script type="text/javascript">
+    $('#username').focus();
+    var changeCode = function () {
+        var that = document.getElementById('code_img');
+        that.src = that.src + '&' + Math.random();
+    }
+    var login = function () {
+        if (!$('#username').val()) {
+            $('#info').text('请填写用户名');
+            $('#username').focus();
+            return false;
+        }
+        if (!$('#password').val()) {
+            $('#info').text('请填写密码');
+            $('#password').focus();
+            return false;
+        }
+
+        $.post('login?dosubmit=1', $("form").serialize(), function (data) {
+            if (!data.status) {
+                //alert( data.info);
+                $('#info').text(data.info);
+                changeCode();
+            } else {
+                //$.messager.progress({text:'加载中，请稍候...'});
+                window.location.href = data.url;
+            }
+        }, 'json');
+        return false;
+    }
+    $(function () {
+        $('[isautotab]').each(function (index) {
+            $(this).keydown(function (event) {
+                if (event.keyCode == 13) {
+                    $('[isautotab]:eq(' + (index + 1) + ')').focus();
+                }
+            });
+        });
+
+    });
+</script>

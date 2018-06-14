@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="Generator" content="ECSHOP v2.7.3">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>选单详细-雪宝集团</title>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/assets/css/public.css">
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/assets/css/user.css">
+
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/num-alignment.js"></script>
+
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery_002.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery_003.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/transport.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/common.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/utils.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/shopping_flow.js"></script>
+</head>
+<body class="body_bj">
+
+
+<header>
+    <div class="tab_nav">
+        <div class="header">
+            <div class="h-left"><a class="sb-back" href="javascript:history.back(-1)" title="返回"></a></div>
+            <div class="h-mid">计算结果</div>
+            <div class="h-right">
+                <aside class="top_bar">
+                    <div onclick="show_menu();$('#close_btn').addClass('hid');" id="show_more"><a href="javascript:;"></a></div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</header>
+<script type="text/javascript" src="__ROOT__/Public/assets/js/mobile.js"></script>
+<div class="goods_nav hid" id="menu">
+    <div class="Triangle">
+        <h2></h2>
+    </div>
+    <ul>
+        <li><a href="__APP__/Home/Shy/showxuandan"><span class="menu2"></span><i>周转箱</i></a></li>
+        <li style=" border:0;"><a href="__APP__/Home/Shy"><span class="menu4"></span><i>我的</i></a></li>
+    </ul>
+</div>
+<div id="tbh5v0">
+    <div class="order">
+        <div class="ord_list1">
+            <div class="good_list">
+                <!-- CSS goes in the document HEAD or added to your external stylesheet -->
+                <form name="resultform" action="__APP__/Home/Shy/saveorder" method="post" onsubmit="return sumbit_sure()">
+                    <!-- Table goes in the document BODY -->
+                    <table class="gridtable">
+                        <tr>
+                            <th width="30%">品名</th>
+                            <th width="15%">单价</th>
+                            <th width="10%">数量</th>
+                            <th width="20%">金额</th>
+                            <th>属性</th>
+                        </tr>
+                    </table>
+                    <volist name="list" id="vo">
+                        <table class="gridtable">
+                            <tr>
+                                <input type="hidden" name="boxid[]" value="{$vo.fboxid}"/>
+                                <input type="hidden" name="boxmaterialid[]" value="{$vo.fboxmaterialid}"/>
+
+                                <td width="30%">{$vo.fname}({$vo.fspecification})</td>
+                                <input type="hidden" name="price[]" value="{$vo.price}"/>
+                                <td width="15%">{$vo.price|number_format=###, 2, '.', ''}</td>
+                                <if condition="$vo.de eq '定额内'">
+                                    <!--<td width="5%"><input name="useqty[]" type="text" value="{$vo.useqty}" size="6"/></td>-->
+                                    <td width="10%"><input style="width:120px;" name="useqty[]" id="{$vo.fboxid}1" data-step="1" data-min="0" data-max="50000000" data-digit="0" value="{$vo.useqty}" size="6"/></td><!--readonly="readonly"-->
+                                    <else/>
+                                    <td width="10%"><input style="width:120px;" name="useqty[]" id="{$vo.fboxid}2" data-step="1" data-min="0" data-max="50000000" data-digit="0" value="{$vo.useqty}" size="6"/></td>
+                                </if>
+                                <td width="20%">{$vo.amount|number_format=###, 2, '.', ''}</td>
+                                <td>{$vo.de}</td>
+                            </tr>
+                        </table>
+                    </volist>
+                    <div style="margin:0 auto; text-align:center;">
+                        <input type="hidden" value="{$checkedentry}" name="checkedentry">
+                        <input class="shy_button" type="submit" value="提交生成瓶箱订单">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script language="javascript">
+        function sumbit_sure() {
+            var gnl = confirm("确定要提交?");
+            if (gnl == true) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    </script>
+    <script>
+        function goTop() {
+            $('html,body').animate({'scrollTop': 0}, 600);
+        }
+    </script>
+    <a href="javascript:goTop();" class="gotop"><img src="__ROOT__/Public/assets/images/topup.png"></a>
+
+</div>
+<script>
+    // 自定义类型：参数为数组，可多条数据
+    alignmentFns.createType([{"test": {"step": 10, "min": 10, "max": 999, "digit": 0}}]);
+    // 初始化
+    alignmentFns.initialize();
+    // 销毁
+    alignmentFns.destroy();
+    // js动态改变数据
+    $("#4").attr("data-max", "12")
+    // 初始化
+    alignmentFns.initialize();
+</script>
+</body>
+</html>

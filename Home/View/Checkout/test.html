@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/assets/js/jquery.form.js"></script>
+</head>
+<body>
+<form id="theForm" name="theForm" action="#" method="post">
+    <input name="upfile" type="file" id="upfile">
+    <input type="button" id="btnsubmit">
+</form>
+<script>
+    $(function () {
+        // 为表单绑定异步上传的事件
+        $("#theForm").ajaxForm({
+            url: "__APP__/Home/Checkout/saveOrder", // 请求的url
+            type: "post", // 请求方式
+            dataType: "text", // 响应的数据类型
+            async: false, // 异步
+            success: function (imageUrl) {
+                alert(imageUrl);
+            },
+            error: function () {
+                alert("数据加载失败！");
+            }
+        });
+        $("#btnsubmit").click(function () {
+            $("#theForm").submit();
+        });
+    });
+</script>
+</body>
+</html>
